@@ -416,3 +416,21 @@ img{
     display: inline-block;
 }
 
+.gray__bg{
+    background: #eaeaea;
+}
+
+.section__container{
+    margin: 0 auto;
+    max-width: 120px;
+    padding: 80px 0;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

@@ -672,6 +672,20 @@ img{
         top: 100%;
         right: 0;
         left: 0;
+        z-index: 3;
+        padding-top: 20px;
+        height: auto;
+    }
+
+    .container-menu ul li{
+        width: 100%;
+        position: static;
+    }
+
+    .container-menu ul li a{
+        width: auto;
+        float: none;
+        color: #fff;
     }
 }
 

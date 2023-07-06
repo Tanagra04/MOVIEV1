@@ -561,7 +561,6 @@ img{
     justify-content: space-around;
     flex-direction: column;
     background-color: #fff;
-
 }
 
 .movies{
@@ -611,7 +610,6 @@ img{
     font-size: 1.5em;
     margin-top: 60px;
     margin: 0 auto;
-
 }
 
 .nameMovie span{
@@ -644,12 +642,40 @@ img{
     cursor: pointer;
     transition: .5s;
     padding: 10px 15px;
-
 }
 
 .bay .button:hover{
     transform: scale(1.1);
 }
+
+/* responsive */
+@media screen and (max-width: 650px) {
+    /* encabezado */
+    header{
+        position: absolute;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-menu .header-superior{
+        width: 100%;
+        display: block;
+    }
+
+    .container-menu nav ul{
+        width: 100%;
+        position: absolute;
+        display: block;
+        background-color: #000;
+        top: 100%;
+        right: 0;
+        left: 0;
+    }
+}
+
+
 
 
 

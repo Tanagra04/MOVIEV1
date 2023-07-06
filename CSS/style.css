@@ -689,6 +689,20 @@ img{
         display: block;
         margin-left: 25px;
     }
+
+    .container__slider{
+        width: 100%;
+        margin-top: 290px;
+        margin-bottom: 80px;
+    }
+
+    .title{
+        width: 100%;
+        margin-top: 400;
+
+    }
+
+
 }
 
 

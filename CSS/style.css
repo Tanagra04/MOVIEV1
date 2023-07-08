@@ -1046,8 +1046,40 @@ img{
 
     .frontpage__cta-title{
         width: 100%;
-        margin-left: 500px;
+        margin-left: 350px;
         padding-bottom: 50px;
+    }
+
+    .links-title{
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    p{
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+
+    .frontpage__cta-wrapper{
+        box-shadow: 0 60px 135px rgb(0, 0, 0, 0.345), 0 15px 65px rgba(0, 0, 0, 0.1);
+        background-color: #03022f;
+        border-radius: 20px;
+        margin-top: 15px;
+        color: #fff;
+        opacity: 1;
+        padding: calc((100vw -180px)* 0.05);
+    }
+
+    .frontpage__cta-action{
+        color: #fff;
+        border: 2px solid #fff;
+    }
+
+    .section__container{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 120px 0;
+
     }
 
 

@@ -934,22 +934,6 @@ img{
         display: flex;
     }
 
-   
-
-    .container__slider{
-        width: 100%;
-        margin-top: 75px;
-        margin-bottom: 80px;
-        
-    }
-
-    .title{
-        width: 100%;
-        margin-top: 393px;
-        padding-top: 20px;
-
-    }
-
     .hero__description{
         display: block;
         margin-top: 22px;
@@ -971,22 +955,27 @@ img{
     }
 
     .frontpage__links{
-        display: block !important;
+        display: flex;
         width: 100%;
         margin: 0 auto;
+        flex-flow: row nowrap;
+        align-items: flex-start;
+        text-align: center;
+        justify-content: space-between;
+        max-width: 700px;
     }
 
     .frontpage__links-icon{
-        width: 70%;
+        width: 100%;
         height: 100%;
+        padding: 10px;
     }
 
     .frontpage__links-description{
-        width: 100%;
+        max-width: 260px;
         font-size: 1.1rem;
         color: #0c0c0c;
-        margin-left: 5px;
-        padding-left: 15px;
+
     }
 
     .links__main{

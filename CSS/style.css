@@ -975,11 +975,9 @@ img{
         max-width: 260px;
         font-size: 1.1rem;
         color: #0c0c0c;
-
     }
 
     .links__main{
-        width: 100%;
         padding: 0;
     }
 
@@ -988,24 +986,6 @@ img{
         margin: 0 auto;
         margin-top: 80px;
         margin-bottom: 30px;
-    }
-
-    #internacional{
-        display: block;
-        margin: 0 auto;
-        width: 100%;
-    }
-
-    .movies, .movie__internacional{
-        display: block;
-        width: 100%;
-        margin-top: 5px;
-    }
-
-    .bay{
-        padding-top: 5px;
-        margin: 0 auto;
-        margin-left: 150px;
     }
 
 
